@@ -4,7 +4,7 @@ region = "us-east-2"
 
 resource "aws_instance" "one" {
 count = 5
-ami = "ami-0cb91c7de36eed2cb"
+ami = "ami-05716d7e60b53d380"
 instance_type = "t2.medium"
 key_name = "Fresh-Terra"
 vpc_security_group_ids = ["sg-0080b0cba614ff114"]
